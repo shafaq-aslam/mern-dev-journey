@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+<body>
+
+    <!--Forms -------- Forms use to collect data from user-->
+    <h2>HTML Forms</h2>
+    <form action="post">
+
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+
+        <di>
+            <input type="checkbox" name="course1" id="course1" value="yes">
+            <label for="course1">Computer Science</label>
+            <input type="checkbox" name="course2" id="course2" value="yes">
+            <label for="course2">Computer Engineering</label>
+        </di>
+
+        <div>
+            <label for="comment">Any comment?</label>
+            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comment...."></textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="file">Upload your transcript here: </label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <div>
+            <input type="image" name="imgbutton" id="imgbutton" alt="click eher" src="image1.png" height="100px">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

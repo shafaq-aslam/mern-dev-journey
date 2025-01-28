@@ -1,0 +1,19 @@
+body{
+    color: rgb(244, 154, 154);
+}
+
+p{
+    background-color: blue;
+}
+
+a{
+    background-color: aquamarine;
+}
+
+div{
+    background-color: blueviolet;
+}
+
+span{
+    background-color: brown;
+}
