@@ -7,20 +7,20 @@
 
     <style>
 
-        /* .container{
+        .container{
             border: 2px solid black;
-            overflow: auto; /* to avoid collapse 
+            overflow: auto; /* to avoid collapse */ 
         } 
-        */
+        
 
-        /* .item{
+        .item{
             width: 200px;
             height: 200px;
             margin: 5px;
             background: aquamarine;
             border: 1px solid black;
-            float: left; /* parent element will collapse 
-        } */
+            float: left; /* parent element will collapse */
+        } 
 
         .box{
             border: 1px solid black;
@@ -29,15 +29,27 @@
             overflow: scroll;
         }
 
+        #item1{
+            float: right;
+        }
+
+        #item2{
+            float: right;
+        }
+
+        #item3{
+            float: right;
+        }
+
     </style>
 </head>
 
 <body>
     
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="item1">A</div>
+        <div class="item" id="item2">B</div>
+        <div class="item" id="item3">C</div>
     </div>
 
     <div class="box">
