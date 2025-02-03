@@ -1,1 +1,1 @@
-# mern-dev-journey
+# Full Stack Development with MERN Stack
