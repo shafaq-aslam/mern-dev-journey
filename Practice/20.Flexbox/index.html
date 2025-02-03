@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+
+        .container{
+            background-color: beige;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            /* flex-wrap: wrap; */
+
+            /* shorthand notation 
+            flex-flow: flex-direction flex-wrap */
+            flex-flow: wrap row; 
+        }
+
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid brown;
+            margin: 2px;
+            color: aqua
+        }
+
+        #bx1{
+            background-color: blue;
+        }
+
+        #bx2{
+            background-color: red;
+        }
+
+        #bx3{
+            background-color: yellow;
+        }
+
+        #bx4{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="bx1">A</div>
+        <div class="box" id="bx2">B</div>
+        <div class="box" id="bx3">C</div>
+        <div class="box" id="bx4">D</div>
+    </div>
+</body>
+</html>
