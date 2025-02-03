@@ -13,13 +13,32 @@
             margin: 2px;
             padding: 2px;
             display: flex;
+            height: 500px;
             flex-direction: row;
+            /* flex-direction: column; */
             /* flex-direction: row-reverse; */
             /* flex-wrap: wrap; */
 
             /* shorthand notation 
             flex-flow: flex-direction flex-wrap */
-            flex-flow: wrap row; 
+            /* flex-flow: wrap row;  */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+            align-items: start;
+            justify-content: start;
+            /* align-items: end; */
+            /* align-items: center; */
+            /* align-items: stretch; By defauld */
+            /* justify-content: center;
+            align-items: center; */
+
+            /* to handle space between items during flex wrap */
+            align-content: start;
+            /* align-content: center; */
+            /* align-content: end; */
         }
 
         .box{
@@ -27,11 +46,14 @@
             height: 150px;
             border: 2px solid brown;
             margin: 2px;
-            color: aqua
+            color: rgb(6, 6, 6);
+            flex-grow: 1;
         }
 
         #bx1{
             background-color: blue;
+            order: 500;
+            flex-grow: 5;
         }
 
         #bx2{
@@ -40,6 +62,8 @@
 
         #bx3{
             background-color: yellow;
+            /* order: -1; */
+
         }
 
         #bx4{
@@ -50,10 +74,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="box" id="bx1">A</div>
-        <div class="box" id="bx2">B</div>
-        <div class="box" id="bx3">C</div>
-        <div class="box" id="bx4">D</div>
+        <div class="box" id="bx1">Box A</div>
+        <div class="box" id="bx2">Box B</div>
+        <div class="box" id="bx3">Box C</div>
+        <div class="box" id="bx4">Box D</div>
     </div>
 </body>
 </html>
