@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+
+    <style>
+        .container {
+            background-color: rgb(245, 200, 142);
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+            /* height: 310px; */
+            width: 580px;
+            display: flex;
+            /* flex-direction: row; */
+        }
+
+        #leftbox{
+            margin: 2px;
+            padding: 5px;
+            /* display: flex;
+            flex-direction: column; */
+        }
+
+        #rightbox{
+           border: 2px solid;
+           margin: 2px;
+           height: 300px;
+           width: 300px;
+        }
+
+        p{
+            border: 2px solid rgb(30, 0, 255);
+            height: 50px;
+            width: 200px;
+            background-color: aqua;
+        }
+
+        @media (max-width:600px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="leftbox">
+            <p>Stop</p>
+            <p>Play</p>
+        </div>
+
+        <div id="rightbox">
+            <img src="img3.jpg" alt="flower image" height="300px" width="300px">
+        </div>
+    </div>
+</body>
+
+</html>
