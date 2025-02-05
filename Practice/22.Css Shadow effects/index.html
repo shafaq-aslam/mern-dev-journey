@@ -7,12 +7,12 @@
     <title>CSS Shadow Effects</title>
 
     <style>
-
         /* Global variable --> accessable for all */
-        :root{
+        :root {
             --primary-color: rgb(249, 102, 232);
             --custom-width: 850px;
         }
+
         .container {
             background-color: pink;
             border: 2px solid palevioletred;
@@ -27,7 +27,8 @@
             width: 250px;
             align-self: center;
         }
-/* 
+
+        /* 
         .box {
             background-color: palevioletred;
             border: 2px solid rgb(213, 83, 126);
@@ -39,20 +40,20 @@
             flex-direction: column;
             /* Box shaddow */
 
-            /* <offset-x> | <offset-y> | <color> */
-            /* box-shadow: 10px 8px rgb(141, 65, 91); */
+        /* <offset-x> | <offset-y> | <color> */
+        /* box-shadow: 10px 8px rgb(141, 65, 91); */
 
-            /* <offset-x> | <offset-y> | blur-radius | <color> */
-            /* box-shadow: 10px 15px 20px rgb(141, 65, 91); */
+        /* <offset-x> | <offset-y> | blur-radius | <color> */
+        /* box-shadow: 10px 15px 20px rgb(141, 65, 91); */
 
-            /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> */
-            /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91); */
+        /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> */
+        /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91); */
 
-            /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> | <inset> */
-            /* insert shadow isnide */
-            /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91) inset; */
+        /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> | <inset> */
+        /* insert shadow isnide */
+        /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91) inset; */
 
-            /* Multiple shadow
+        /* Multiple shadow
             box-shadow: 10px 15px 20px 10px rgb(141, 65, 91) inset, 
             10px 15px 20px 10px rgb(242, 100, 176);
         } */
@@ -71,6 +72,12 @@
             flex-direction: column;
         }
 
+        #head1{
+            /* text-shadow: 2px 1px 2px white; */
+            /* text-shadow: 12px 15px rgb(244, 78, 78); */
+            text-shadow: 12px 15px;
+        }
+
     </style>
 </head>
 
@@ -78,7 +85,7 @@
     <div class="container">
 
         <div class="box">
-            <h2>
+            <h2 id="head1">
                 Welcome to the Garden
             </h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, odit magnam? Ducimus accusamus voluptate
