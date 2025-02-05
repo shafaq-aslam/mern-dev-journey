@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadow Effects</title>
+
+    <style>
+        .container {
+            background-color: pink;
+            border: 2px solid palevioletred;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 200px;
+            width: 250px;
+            align-self: center;
+        }
+
+        .box {
+            background-color: palevioletred;
+            border: 2px solid rgb(213, 83, 126);
+            width: 850px;
+            height: 390px;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            /* Box shaddow */
+
+            /* <offset-x> | <offset-y> | <color> */
+            /* box-shadow: 10px 8px rgb(141, 65, 91); */
+
+            /* <offset-x> | <offset-y> | blur-radius | <color> */
+            /* box-shadow: 10px 15px 20px rgb(141, 65, 91); */
+
+            /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> */
+            /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91); */
+
+            /* <offset-x> | <offset-y> | blur-radius | <spread-radius> | <color> | <inset> */
+            /* insert shadow isnide */
+            /* box-shadow: 10px 15px 20px 10px rgb(141, 65, 91) inset; */
+
+            /* Multiple shadow */
+            box-shadow: 10px 15px 20px 10px rgb(141, 65, 91) inset, 
+            10px 15px 20px 10px rgb(242, 100, 176);
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <h2>
+                Welcome to the Garden
+            </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, odit magnam? Ducimus accusamus voluptate
+                fugiat mollitia dolores repudiandae assumenda quae eaque illo est porro, incidunt omnis animi voluptas
+                itaque at, corporis numquam reprehenderit ad eius! Accusamus laborum animi illo praesentium
+                necessitatibus itaque maiores dicta ad ab quos excepturi molestias, odit doloremque! Nihil nobis aliquam
+                eveniet et, ullam quasi quibusdam dicta vitae sequi recusandae velit fugit alias dignissimos, blanditiis
+                itaque! Incidunt consequatur fugit quos ullam tempora ex modi, iusto repudiandae impedit temporibus
+                molestias eius quis, corrupti nulla sit vel omnis non laudantium itaque dolore officiis excepturi autem
+                error?</p>
+            <img src="../21.Css Media queries and custom variable/img3.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
