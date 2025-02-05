@@ -7,6 +7,12 @@
     <title>CSS Shadow Effects</title>
 
     <style>
+
+        /* Global variable --> accessable for all */
+        :root{
+            --primary-color: rgb(249, 102, 232);
+            --custom-width: 850px;
+        }
         .container {
             background-color: pink;
             border: 2px solid palevioletred;
@@ -53,8 +59,8 @@
 
         .box {
             /* Custom variable */
-            --primary-color: rgb(249, 102, 232);
-            --custom-width: 850px;
+            /* --primary-color: rgb(249, 102, 232);
+            --custom-width: 850px; */
             background-color: var(--primary-color);
             border: 2px solid rgb(213, 83, 126);
             width: var(--custom-width);
