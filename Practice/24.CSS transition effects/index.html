@@ -11,11 +11,24 @@
             width: 200px;
             background-color: rgb(167, 115, 215);
             border: 5px solid blueviolet;
-            /* transition-property: width height border-radius background-color border; */
+            transition-property: width height border-radius background-color border;
             transition-property: all;
             transition-duration: 4s;
             transition-delay: 0.25s;
-            transition-timing-function: linear;
+            transition-timing-function: ease;
+
+            /* Shorthand Notation */
+
+            /* property | duration */
+            /* transition: all 0.5s; */
+
+            /* property | duration | delay*/
+            /* transition: all 2s 0.25s; */
+
+            /* property | duration | delay */
+            /* transition: all 2s 0.25s ease-in; */
+
+            /* transition: width 2s, height 5s; */
         }
 
         .box:hover{
