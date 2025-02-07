@@ -76,11 +76,45 @@ a{
 
 .item{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .rightBox img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.contentBox{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.leftBox h2{
+    font-size: 2rem;
+}
+
+.leftBox h3{
+    font-size: 1.5rem;
+}
+
+.ingredientBox{
+    font-size: 1.2rem;
+}
+
+.recipeBox{
+    font-size: 1rem;
 }
