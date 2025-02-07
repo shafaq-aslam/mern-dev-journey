@@ -13,7 +13,7 @@ nav{
     list-style: none;
     font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* margin-right: 15px;
     margin-left: 15px; */
@@ -22,8 +22,8 @@ nav{
 }
 
 .container{
-   height: 100vh;
-   width: 100vw;
+   height: 100%;
+   width: 100%;
    overflow: none; 
    background: linear-gradient(to bottom, #D2665A 0%, #F2B28C 75%, #F6DED8 100%);
 }
@@ -80,20 +80,40 @@ a{
     align-items: center;
 }
 
+.rightBox{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.6s 0s linear;
+}
+
 .rightBox img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    transition: all 0.6s 0s linear;
+
 }
+
+.rightBox:hover{
+    transform: scale(1.3);
+    /* border-radius: 20%; */
+}
+
 
 .contentBox{
     display: flex;
     width: 60%;
     margin: auto;
-    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3rem;
+    border: 1px solid #9A031E;
+    border-radius: 8px;
     background-color: whitesmoke;
     flex-direction: column;
     gap: 100px;
+    box-shadow: 0px 0px 30px black; 
 }
 
 .leftBox{
@@ -117,4 +137,29 @@ a{
 
 .recipeBox{
     font-size: 1rem;
+}
+
+.rightBox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #593e4fc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.6s 0s linear;
+}
+
+.rightBox:hover .overlay{
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.rightBox .overlay span{
+    color: white;
+    font-size: 0.7rem;
 }
