@@ -6,7 +6,8 @@
 
 .container{
     display: flex;
-    justify-content: center;
+    /* flex-direction: row; */
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 100vh;
@@ -14,7 +15,7 @@
     background:linear-gradient(180deg, #6B240C 0%, #994D1C 100%);
 }
 
-.card{
+.card1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,18 +30,112 @@
     /* margin: 20px; */
 }
 
-.card img{
+.card1 img{
     height: 250px;
     width: 290px;
     border-radius: 20px;
 }
 
-.card h2{
+.card1 h2{
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.card p{
+.card1 p{
     font-size: 0.92rem;
     text-align: justify;
 }
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 490px;
+    background-color: #F5CCA0;
+    box-shadow: 2px 5px 40px #50260a;
+    /* border: 3px solid #50260a; */
+    border-radius: 20px;
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+.card2 img{
+    width: 100%;
+    height: 35%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card2 p{
+    font-size: 0.92rem;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.amountBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5b36ce3;
+    width: 80%;
+    height: 10%;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.leftBox{
+    /* width: fit-content; */
+    height: 100%;
+    display: flex;
+    /* padding: 0; */
+    gap: 10px;
+    /* flex-direction: row;
+    justify-content: left; */
+    /* align-items: flex-start; */
+}
+
+.textBox p{
+    text-align: left;
+    /* height: 50%; */
+    padding: 0;
+    font-size: small;
+}
+
+.rightBox{
+    align-items: center;
+    padding-top: 5px;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.rightBox a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #2b1405;
+}
+
+#paymentBtn{
+    width: 90%;
+    height: 9%;
+    color: #f8d8b5e3;
+    border-radius: 8px;
+    background-color: #6B240C;
+    box-shadow: 2px 10px 30px #2b1405;
+}
+
+#cnclOrder{
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*  */
