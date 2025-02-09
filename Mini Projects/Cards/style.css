@@ -138,4 +138,12 @@
     font-size: large;
 }
 
-/*  */
+@media (max-width:600px){ 
+    .container{
+        flex-direction: column;
+        gap: 20px;
+        /* width: 100vw;
+        height: 100vh; */
+        /* padding: 15px; */
+    }
+}
