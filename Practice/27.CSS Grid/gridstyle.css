@@ -29,8 +29,8 @@ body{
     width: 100px; 
     background-color: #DD88CF;
     border: 2px solid #4B164C;
-    justify-self: start;
-    align-self: center;
+    justify-self: center; /* --> horizontal */ 
+    align-self: center; /* --> vertical */
     /* justify-self: stretch; --> don't define height and width*/
     /* align-self: stretch --> don't define height and width; */
 }
