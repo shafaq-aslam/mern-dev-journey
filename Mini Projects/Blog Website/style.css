@@ -31,9 +31,69 @@ body{
 }
 
 .mainBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     border: 2px solid black;
     margin: 20px;
 }
+
+.cardContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #f8ebde;
+    box-shadow: 2px 2px 20px #50260a;
+    /* border: 3px solid #50260a; */
+    border-radius: 10px;
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+.cardContainer1 .image{
+    width: 300px;
+    height: 210px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardTitleContainer{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0.15rem;
+}
+
+.cardFooterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 10px 0px 10px;
+    /* border: 1px solid black; */
+}
+
+.authorContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+
+.ava1{
+    border-radius: 50%;
+}
+
+.authorInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardTagContainer{
+    display: flex;
+    align-items: center;
+}
+
 a{
     text-decoration: none;
 }
