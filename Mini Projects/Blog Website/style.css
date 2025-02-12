@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black */
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainContainer{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(216, 238, 238);
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerBlock{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 70%;;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.mainBlock{
+    border: 2px solid black;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
