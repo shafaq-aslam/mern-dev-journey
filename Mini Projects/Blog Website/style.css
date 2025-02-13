@@ -11,13 +11,15 @@ a{
 
 body{
     width: 100vw;
-    height: 100vh;;
+    height: 100vh;
+    background-color: #6e0d25;
+    /* background-image: url("images/backgroundImage.jpg"); */
 }
 
 .mainContainer{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(216, 238, 238);
+    /* background-color: rgb(216, 238, 238); */
     overflow-x: hidden;
     /* margin: 0 auto;  */
 }
@@ -46,9 +48,11 @@ body{
 .headerBlock h1{
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .headerBlock p{
+    color: white;
     max-width: 660px;
     text-align: center;
     margin: 0 auto; 
@@ -75,7 +79,7 @@ body{
     gap: 10px;
     width: 300px;
     height: 400px;
-    background-color: #f8ebde;
+    background-color: #fcd6ae;
     box-shadow: 2px 2px 12px #50260a;
     /* border: 3px solid #50260a; */
     border-radius: 5px;
@@ -111,7 +115,7 @@ body{
 }
 
 .cardTitleContainer h2{
-    color: #50260a;
+    color: #6e0d25;
     font-size: 1.2rem;
     font-family:'Times New Roman', Times, serif;
     font-weight: 2100;
@@ -119,10 +123,11 @@ body{
 }
 
 .cardTitleContainer:hover h2{
-    color: rgb(71, 71, 135);
+    color: #4f0316;
 }
 
 .cardTitleContainer p{
+    color: #6e0d25;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 2100;
@@ -159,22 +164,23 @@ body{
 
 .authorInfoContainer span:nth-child(1){
     font-family: 'Times New Roman', Times, serif;
-    color:black;
+    color: #6e0d25;
     font-weight: 530;
 }
 
 .authorInfoContainer span:nth-child(2){
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(0, 0, 0);
+    color: #6e0d25;
     font-weight: 430;
 }
 
 .cardTagContainer{
     font-size: 1rem;
-    border: 2px solid black;
-    border-radius: 2px;
+    background-color: #6e0d25;
+    border: 2px solid #6e0d25;
+    border-radius: 5px;
     line-height: 25px;
     padding: 0.1rem 0.7rem;
-    color: rgb(70, 69, 69);
+    color: white;
 }
