@@ -22,18 +22,31 @@ body{
     flex-direction: column;
 }
 
-.headerBlock{
+/* .headerBlock{
     text-align: center;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 70%;;
     margin: 15px auto;
     padding: 10px;
+} */
+
+.headerBlock h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.headerBlock p{
+    max-width: 660px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .mainBlock{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
     border: 2px solid black;
     margin: 20px;
 }
@@ -47,15 +60,25 @@ body{
     background-color: #f8ebde;
     box-shadow: 2px 2px 20px #50260a;
     /* border: 3px solid #50260a; */
-    border-radius: 10px;
+    border-radius: 5px;
     /* padding: 20px; */
     /* margin: 20px; */
 }
 
+.cardContainer1 a{
+    position: relative;
+    overflow: hidden;
+    height: 50%;
+}
+
 .cardContainer1 .image{
-    width: 300px;
-    height: 210px;
-    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .cardTitleContainer{
