@@ -17,6 +17,7 @@ body{
 }
 
 .mainContainer{
+    display: flex;
     width: 100vw;
     height: 100vh;
     /* background-color: rgb(216, 238, 238); */
@@ -72,6 +73,24 @@ body{
     /* margin: 20px; */
     /* overflow-x: hidden; */
 }
+
+/* @media (min-width:650px) {
+    .mainBlock{
+        grid-template-columns: repeat(2, 1rem);
+    }
+}
+
+@media (min-width:1080px) {
+    .mainBlock{
+        grid-template-columns: repeat(3, 1rem);
+    }
+}
+
+@media (min-width:1340px) {
+    .mainBlock{
+        grid-template-columns: repeat(4, 1rem);
+    }
+} */
 
 .cardContainer1{
     display: flex;
