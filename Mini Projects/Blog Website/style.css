@@ -54,7 +54,7 @@ body{
 
 .headerBlock p{
     color: white;
-    max-width: 660px;
+    max-width: 760px;
     text-align: center;
     margin: 0 auto; 
     margin-bottom: 10px;
@@ -74,12 +74,13 @@ body{
     /* overflow-x: hidden; */
 }
 
-/* @media (min-width:650px) {
+/* @media (max-width:650px) {
     .mainBlock{
         grid-template-columns: repeat(2, 1rem);
+        grid-template-rows: repeat(4, 1fr);
     }
-}
-
+} */
+/* 
 @media (min-width:1080px) {
     .mainBlock{
         grid-template-columns: repeat(3, 1rem);
