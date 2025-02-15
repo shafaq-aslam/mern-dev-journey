@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(204, 146, 245);
+        }
+
+        body{
+            height: 100vh;
+            width: 100vw;
+            box-sizing: border-box;
+        }
+
+        header{
+            background-color: rgb(137, 10, 227);
+            height: 50px;
+            width: 100vw;
+            position: sticky;
+        }
+
+        .mainDiv{
+            width: 90%;
+            height: 80%;
+            /* border: 2px solid palevioletred; */
+            background-color: rgb(169, 88, 244);
+            margin: 10px auto;
+            border-radius: 5px;
+            /* position: absolute; */
+        }
+
+        .mainDiv > div{
+            height: 70%;
+            width: 40%;
+            background-color: rgb(246, 53, 136);
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .mainDiv .diva{
+            background-color: aquamarine;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 30px;
+        }
+
+        .mainDiv .divb{
+            background-color: rgb(232, 255, 127);
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 730px;
+        }
+
+        .textBlock{
+            width: 90%;
+            /* height: ; */
+            background-color: #fff;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+    </header>
+
+    <div class="mainDiv">
+        <div class="diva"></div>
+        <div class="divb"></div>
+    </div>
+
+    <div class="textBlock">
+        It is never too late to be what you might have been
+    </div>
+</body>
+</html>
