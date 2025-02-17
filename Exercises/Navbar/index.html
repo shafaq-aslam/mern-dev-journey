@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-container{
+            display: flex;
+            justify-content: space-around;
+            background-color: blueviolet;
+        }
+
+        .logo-side{
+            display: flex;
+            gap: 5px;
+        }
+
+        .nav-items{
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-list{
+            display: flex;
+            gap: 30px;
+            margin-top: 25px;
+            list-style-type: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1rem;
+        }
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        span{
+            margin: 16px 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            font-size: 2rem;
+            color: aliceblue;
+        }
+
+        .icon, .logo{
+            /* justify-items: center; */
+            align-self: center;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="logo-side">
+            <img class="logo" src="../../Mini Projects/media player/logo.jpeg" alt="logo" width="25px" height="25px">
+            <span class="name">TechHub</span>
+        </div>
+
+        <div class="nav-items">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <img class="icon" src="../../Mini Projects/media player/logo.jpeg" alt="logo" width="25px" height="25px">
+        </div>
+    </nav>
+</body>
+</html>
