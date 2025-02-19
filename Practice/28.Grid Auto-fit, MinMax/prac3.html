@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Practice</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: blueviolet;
+        }
+
+        .container{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            gap: 1rem;
+            padding: 2rem;
+            grid-template-areas: "header header header header header"
+                                 "navbar article article article ads"
+                                 "navbar article article article ads"
+                                 "navbar article article article ads"
+                                 "navbar footer footer footer footer";
+        }
+
+        .item{
+            background-color: rgb(211, 176, 247);
+            border-radius: 5px;
+            padding: 2rem;
+            color: rgb(60, 30, 87);
+        }
+
+        #header{
+            grid-area: header;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #article{
+            grid-area: article;
+        }
+        #ads{
+            grid-area: ads;
+        }
+        #footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="header">Header</div>
+        <div class="item" id="navbar">Navbar</div>
+        <div class="item" id="article">Article</div>
+        <div class="item" id="ads">Ads</div>
+        <div class="item" id="footer">Footer</div>
+    </div>
+</body>
+</html>
