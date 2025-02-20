@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Transforms</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color:aquamarine;
+            /* justify-content: center;
+            align-items: center; */
+            padding: 5rem;
+            width: 100%;
+            height: 100%;
+        }
+
+        .item{
+            height: 80px;
+            width: 150px;
+            background-color: brown;
+            border: 2px solid yellow;
+            padding: 2rem;
+            color: aqua;
+            border-radius: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">RotateX</div>
+        <div class="item">RotateY</div>
+        <div class="item">RotateZ</div>
+        <div class="item">TranslateX</div>
+        <div class="item">TranslateY</div>
+        <div class="item">TranslateZ</div>
+        <div class="item">ScaleX</div>
+        <div class="item">ScaleY</div>
+        <div class="item">ScaleZ</div>
+    </div>
+</body>
+</html>
