@@ -39,11 +39,17 @@ body{
 }
 
 .navbar nav ul{
-    display: flex;
+    display: none;
     /* margin-top: 5px; */
     /* gap: 30px; */
 }
 
+@media  screen and (min-width: 780px) {
+    .navbar nav ul{
+        display: flex;
+    }
+    
+}
 .navbar nav ul li{
     display: flex;
     height: 100%;
@@ -71,7 +77,7 @@ body{
 }
 
 .contbtn{
-    margin-top: 17px;
+    margin-top: 27px;
 }
 .contbtn a{
     padding: 10px;
