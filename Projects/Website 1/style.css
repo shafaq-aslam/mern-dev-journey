@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: 55px;
     grid-template-areas: "logoArea navArea btn";
-    background-color: #e3e854;
+    /* background-color: #e3e854; */
     /* margin-top: 5px; */
 }
 
