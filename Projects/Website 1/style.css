@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: 55px;
     grid-template-areas: "logoArea navArea btn";
-    /* background-color: #e3e854; */
+    background-color: #e3e854;
     /* margin-top: 5px; */
 }
 
@@ -29,7 +29,7 @@ body{
 .logoarea{
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
 }
 
 .logoarea span{
@@ -40,24 +40,32 @@ body{
 
 .navbar nav ul{
     display: flex;
-    gap: 30px;
+    /* margin-top: 5px; */
+    /* gap: 30px; */
 }
 
 .navbar nav ul li{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
     list-style: none;
-    font-size: 1.1rem;
-    padding: 17px;    
+    font-size: 1.1rem;  
+    text-align: center; 
 }
 
 .navbar nav ul li a{
+    height: 55px;
+    flex-direction: row;
+    align-items: center;
     text-decoration: none;
+    padding: 17px;
     color: rgb(35, 34, 34);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #navArea li a:hover{
-    /* margin: auto; */
-    padding: 17px 5px;
     background-color: rgb(250, 94, 37);
     color: white;
 }
@@ -79,8 +87,8 @@ body{
 
 .contbtn a:hover{
     background-color:rgb(255, 179, 0);
-    color: orangered;
-    font-weight: bold;
+    color: black;
+    /* font-weight: bold; */
 }
 #logoArea{
     grid-area: logoArea
