@@ -7,8 +7,7 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-color: rgb(247, 216, 204);
 }
 
@@ -263,4 +262,74 @@ main{
     .main-container .image-container{
         width: 80%;
     }
+
+    .image-container{
+        animation: slideFrame 1.5s ease forwards;
+    }
+
 }
+
+.trusted-container{
+    margin: 3rem auto;
+    /* border: 2px solid black; */
+}
+
+.brand{
+    animation: slideFrame 1.5s ease forwards;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+.trusted-container h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.brand-logo-name {
+    justify-self: center;
+}
+
+.brand-logo-name span{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: bolder;
+}
+
+.brands-container{
+    width: 50%;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border: 1px solid rgb(248, 238, 238);
+    background-color: rgb(248, 238, 238);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 780px){
+    .brands-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .brand-logo-name {
+        justify-self: center;
+    }
+
+    .brand{
+        animation: slideFrame 1.5s ease forwards;
+    }
+}
+
+
