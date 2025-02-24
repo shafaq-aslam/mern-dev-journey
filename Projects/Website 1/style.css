@@ -152,7 +152,7 @@ main{
 }
 
 .content-container{
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     animation: slideFrame 1.5s ease forwards;
 }
@@ -210,6 +210,17 @@ main{
     color: white;
     border-radius: 5px;
 }
+
+.content-container #btn1:hover{
+    background-color: rgb(241, 89, 34);
+    color: white;
+}
+
+.content-container #btn2:hover{
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+
 .image-container{
     width: 28%;
     height: 450px;
@@ -230,7 +241,26 @@ main{
 }
 
 .image-container img{
-    border-radius: 10px;
+    border-radius: 15px;
     /* box-shadow: 10px 8px rgb(141, 65, 91); */
     box-shadow: 5px 5px 15px rgb(72, 45, 54);
+}
+
+@media screen and (max-width: 850px) {
+    .main-container{
+        flex-direction: column;
+    }
+    
+    .main-container .content-container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-container .content-container p{
+       text-align: center;
+    }
+
+    .main-container .image-container{
+        width: 80%;
+    }
 }
