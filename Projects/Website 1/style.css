@@ -8,7 +8,7 @@
 
 body{
     width: 100%;
-    background-color: rgb(247, 216, 204);
+    background-color: #F5F5DC;
 }
 
 .container{
@@ -34,7 +34,7 @@ body{
 .logoarea span{
     font-size: 2rem;
     font-family: "Rubik Wet Paint", serif;
-    color: black;
+    color: #2C3E50;
 }
 
 .navbar nav ul{
@@ -71,7 +71,7 @@ body{
 }
 
 #navArea li a:hover{
-    background-color: rgb(250, 94, 37);
+    background-color: #2C3E50;
     color: white;
 }
 
@@ -89,7 +89,7 @@ body{
     padding: 10px;
     width: 110px;
     border-radius: 8px;
-    background-color: rgb(250, 94, 37);
+    background-color:#2C3E50;
     text-decoration: none;
     border: none;
     color: white;
@@ -98,8 +98,8 @@ body{
 }
 
 .contbtn a:hover{
-    background-color:rgb(255, 179, 0);
-    color: black;
+    background-color:#1A5276;
+    color: white;
     /* font-weight: bold; */
 }
 #logoArea{
