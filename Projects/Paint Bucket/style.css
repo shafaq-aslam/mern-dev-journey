@@ -148,11 +148,6 @@ body{
     }
 }
 
-main{
-    padding: 2rem;
-    /* border: 2px solid red; */
-}
-
 .main-container{
     display: flex;
     justify-content: center;
@@ -345,5 +340,56 @@ main{
         animation: slideFrame 1.5s ease forwards;
     }
 }
+
+.cards-section{
+    width: 100%;
+    background-image: url("images/interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 14rem 6rem 0 6rem;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    overflow: visible;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: var(--Light-Sage);
+    box-shadow: 2px 5px 40px #50260a;
+    border-radius: 5px;
+    transition: all 0.2s 0s linear;
+}
+
+.cards img{
+    height: 220px;
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cards span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: var(--Dark-Olive-Green);
+}
+
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 
 
