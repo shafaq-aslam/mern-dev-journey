@@ -341,6 +341,23 @@ body{
     }
 }
 
+@media (max-width: 431px){
+    .brands-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 1rem 0.2rem;
+    }
+
+    .brand-logo-name {
+        justify-self: center;
+    }
+
+    .brand{
+        animation: slideFrame 1.5s ease forwards;
+    }
+}
+
 .cards-section{
     width: 100%;
     background-image: url("images/interior-design.jpg");
@@ -391,5 +408,41 @@ body{
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1414px){
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        padding: 1.5rem 0.5rem;
+    }
 
+    .cards-section{
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 1027px){
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .cards-section{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 654px){
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .cards-section{
+        height: 2200px;
+    }
+}
 
