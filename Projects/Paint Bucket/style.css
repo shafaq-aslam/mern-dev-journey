@@ -477,7 +477,12 @@ body{
 
 .testimonial-content h2{
     text-align: center;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: var(--Light-Sage);
+    font-size: 1.9rem;
 }
 
 .cards-grid{
@@ -485,7 +490,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem; 
     width: 90%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 0 7rem;
 }
 
@@ -499,6 +504,7 @@ body{
     border-radius: 0.5rem;
     background-color: var(--Light-Sage);
     border: var(--Light-Sage);
+    box-shadow: 1px 3px 30px #403128;
 }
 
 .testimonial-image{
@@ -506,10 +512,24 @@ body{
     width: 100px;
     border-radius: 50%;
     margin-bottom: 0.5rem;
+    border: 2px solid var(--Warm-Brown);
 }
 
 .testimonial-card p{
     text-align: center;
     margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.testimonial-card h4{
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.testimonial-card span{
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
 }
 
