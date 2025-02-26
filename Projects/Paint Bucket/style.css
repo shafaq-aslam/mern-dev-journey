@@ -433,6 +433,7 @@ body{
         height: 1300px;
     }
 }
+
 @media screen and (max-width: 654px){
     .cards-container{
         display: grid;
