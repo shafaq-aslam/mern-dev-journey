@@ -540,7 +540,7 @@ body{
     transform: scale(1.1);
     background-color: var(--Deep-Forest-Green);
     color: var(--Light-Sage);
-    .cust-name {
+    h4 {
         color: var(--Light-Sage);
     }
     .testimonial-image{
