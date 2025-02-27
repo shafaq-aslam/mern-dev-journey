@@ -505,6 +505,12 @@ body{
     background-color: var(--Light-Sage);
     border: var(--Light-Sage);
     box-shadow: 1px 3px 30px #403128;
+    transition: all 0.2s 0s linear;
+}
+
+.testimonial-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .testimonial-image{
@@ -524,7 +530,8 @@ body{
 
 .testimonial-card h4{
     font-size: 1.2rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--Dark-Olive-Green);
 }
 
 .testimonial-card span{
