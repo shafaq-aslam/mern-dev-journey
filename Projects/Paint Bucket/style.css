@@ -543,6 +543,9 @@ body{
     .cust-name {
         color: var(--Light-Sage);
     }
+    .testimonial-image{
+        border: 2px solid var(--Light-Sage);
+    }
 }
 
 @media screen and (max-width: 1027px){
