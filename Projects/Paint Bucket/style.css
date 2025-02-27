@@ -508,11 +508,6 @@ body{
     transition: all 0.2s 0s linear;
 }
 
-.testimonial-card:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 .testimonial-image{
     height: 100px;
     width: 100px;
@@ -538,6 +533,16 @@ body{
     font-size: small;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
+}
+
+.testimonial-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: var(--Deep-Forest-Green);
+    color: var(--Light-Sage);
+    .cust-name {
+        color: var(--Light-Sage);
+    }
 }
 
 @media screen and (max-width: 1027px){
