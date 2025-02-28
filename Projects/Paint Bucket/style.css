@@ -594,6 +594,64 @@ body{
     border-radius: 8px;
 }
 
+
+
+.image-section img{
+    height: 100%;
+    width: 95%;
+    border-radius: 8px 0 0 8px;
+}
+
+.news-update-section{
+    /* border: 2px solid red; */
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.news-update-section h1{
+    font-size: 2.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--Dark-Olive-Green);
+}
+
+.news-update-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0.7rem;
+    color: var(--Warm-Brown);
+}
+
+.news-update-section .email{
+    padding: 0.6rem;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+}
+
+.news-update-section .send-button{
+    padding: 0.6rem;
+    width: 60px;
+    border: none;
+    background-color: var(--Dark-Olive-Green);
+    border-radius: 3px;
+    color: var(--Light-Sage);
+    cursor: pointer;
+}
+
+.news-update-section .email-section{
+    margin-bottom: 0.5rem;
+}
+
+.news-update-section span,a{
+    font-size: 12.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-update-section span{
+   color: var(--Warm-Brown);
+}
+
 @media screen and (max-width:903px){
     .newsletter-section{
         height: 700px;
@@ -655,60 +713,4 @@ body{
     .newsletter-container .news-update-section{
        padding: 3rem;
     }
-}
-
-.image-section img{
-    height: 100%;
-    width: 95%;
-    border-radius: 8px 0 0 8px;
-}
-
-.news-update-section{
-    /* border: 2px solid red; */
-    padding-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.news-update-section h1{
-    font-size: 2.2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--Dark-Olive-Green);
-}
-
-.news-update-section p{
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 0.7rem;
-    color: var(--Warm-Brown);
-}
-
-.news-update-section .email{
-    padding: 0.6rem;
-    width: 200px;
-    border-radius: 3px;
-    border: none;
-}
-
-.news-update-section .send-button{
-    padding: 0.6rem;
-    width: 60px;
-    border: none;
-    background-color: var(--Dark-Olive-Green);
-    border-radius: 3px;
-    color: var(--Light-Sage);
-    cursor: pointer;
-}
-
-.news-update-section .email-section{
-    margin-bottom: 0.5rem;
-}
-
-.news-update-section span,a{
-    font-size: 12.5px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.news-update-section span{
-   color: var(--Warm-Brown);
 }
