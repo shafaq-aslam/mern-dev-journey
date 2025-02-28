@@ -591,13 +591,13 @@ body{
     /* padding: 2rem; */
     background-color: var(--Light-Sage);
     box-shadow: 1px 3px 25px var(--Charcoal-Gray);
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .image-section img{
     height: 100%;
     width: 95%;
-    border-radius: 5px 0 0 5px;
+    border-radius: 8px 0 0 8px;
 }
 
 .news-update-section{
