@@ -770,6 +770,7 @@ body{
     text-decoration: none;
     list-style: none;
     color: var(--Sage-Gray);
+    font-weight: 300;
 }
 
 .rightside h2{
