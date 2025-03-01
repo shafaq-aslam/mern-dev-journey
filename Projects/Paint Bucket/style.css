@@ -812,6 +812,49 @@ hr{
     color: var(--Light-Sage);
 }
 
-@media  (max-width:) {
+@media  (max-width:1025px) {
+    .footer-section{
+        height: 700px;
+        padding: 2rem;
+    }
+    .footer-container .footer-upper-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 250px;
+        gap: 2.5rem;
+    }
+
+    .leftside{
+        align-self: center;
+    }
+}
+
+@media  (max-width:769px) {
+    .footer-section{
+        height: 700px;
+        padding: 2rem;
+    }
+    .footer-container .footer-upper-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 250px;
+        gap: 2.5rem;
+    }
+
+    .leftside{
+        align-self:flex-start;
+    }
+
+    .rightside ul, ul li a{
+        color: var(--Light-Sage);
+    }
     
+    .rightside h2{
+        color: var(--Light-Sage);
+        font-size: 0.8rem;
+    }
+    
+    .rightside li{
+        margin-bottom: 2rem;
+    }
 }
