@@ -717,27 +717,30 @@ body{
 
 .footer-section{
     background-color: var(--Light-Sage);
-    height: 650px;
-    padding: 5rem;
+    height: 450px;
+    padding: 3rem 8rem;
     border: 2px solid black;
 }
 
 .footer-container{
     display: flex;
     flex-direction: column;
-    border: 2px solid #50260a;
-    height: 95%;
+    /* border: 2px solid #50260a; */
+    height: 380px;
+    width: 100%;
 }
 
 .footer-upper-section{
     display: flex;
     flex-direction: row;
     gap: 6rem;
-    height: 90%;
+    height: 85%;
+    margin-bottom: 0.5rem;
 }
 
 .leftside{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    width: 35%;
 }
 
 .leftside h1{
@@ -750,6 +753,7 @@ body{
 .leftside span{
     color: var(--Dark-Olive-Green);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
 }
 
 .iconsection{
@@ -760,7 +764,7 @@ body{
 }
 
 .rightside{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -782,4 +786,19 @@ body{
 
 .rightside li{
     margin-bottom: 2rem;
+}
+
+hr{
+    border: 2px solid var(--Sage-Gray);
+    border-radius: 40%;
+    width: 100%;
+    align-self: center;
+}
+
+.footer-lower-section{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    color: var(--Dark-Olive-Green);
 }
