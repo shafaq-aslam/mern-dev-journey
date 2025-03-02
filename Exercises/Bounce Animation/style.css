@@ -1,0 +1,42 @@
+
+.container{
+    height: 650px;
+    width: 100%;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.circle{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    /* top: 570px; */
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    animation: ballBouncerX 3s linear infinite, ballBouncerY 1s ease-out infinite alternate;
+}
+
+@keyframes ballBouncerX {
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes ballBouncerY {
+    from{
+        bottom: 0;
+    }
+
+    to{
+        bottom: 100%;
+    }
+}
+
+
+
