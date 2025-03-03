@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100wh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #272829;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    color: white;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    display: block;
+    text-align: center;
+}
+
+nav .fas{
+    display: none;
+    padding-right: 0.5rem;
+}
+
+nav a:hover{
+    background-color: #61677A;
+    color: white;
+}
+
+#check, #btn, #cancel{
+    display: none;
+    cursor: pointer;
+}
+
+#btn, #cancel{
+    background-color: #61677A;
+    padding: 6px;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}
+
+/* 
+#btn{
+    right: 2rem;
+} */
+
