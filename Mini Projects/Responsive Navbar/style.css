@@ -35,7 +35,7 @@ nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav a{
@@ -56,18 +56,87 @@ nav a:hover{
     color: var(--text-color);
 }
 
-#check, #btn, #cancel{
+#check, #btn{
+    width: 35px;
     display: none;
     cursor: pointer;
+    position: absolute;
+    right: 15px;
 }
 
-#btn, #cancel{
+#btn{
     background-color: var(--secondary-color);
     padding: 6px;
     border-radius: 2px;
     font-size: 1.5rem;
 }
 
+@media (max-width: 1026px) {
+    h1{
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    ul li a{
+        font-size: 0.8rem;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width:930px){
+
+    header{
+        justify-content: space-between;
+    }
+
+    #btn{
+        display: block;
+        position: absolute;
+        top: 10px;
+        transition: all .5s;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        top: 55px;
+        left: -100%;
+        background-color: var(--primary-color);
+        border-top: 1px solid var(--secondary-color);
+        transition: all .5s;
+    }
+
+    nav .fas{
+        display: inline-block;
+    }
+
+    nav ul li{
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        border-bottom: 1px solid black;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        transition: 0.4s;
+    }
+
+    nav a:hover{
+        transform: scale(1.2);
+        background: none;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+/* 787 */
 /* 
 #btn{
     right: 2rem;
