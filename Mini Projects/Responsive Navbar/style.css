@@ -9,12 +9,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
-    height: 100wh;
+    height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
+    /* background: url(background.gif) no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 header{
@@ -136,9 +140,11 @@ nav a:hover{
     }
 }
 
-/* 787 */
-/* 
-#btn{
-    right: 2rem;
-} */
+section{
+    background: url(laptop.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* otransition: all .5s;  */
+}
 
