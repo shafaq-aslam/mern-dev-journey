@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+:root{
+    --dark-charcoal: #272829;
+    --purple-fog: #61677A;
+}
 
 *{
     margin: 0;
@@ -14,7 +18,7 @@ body{
 
 header{
     display: flex;
-    background-color: #272829;
+    background-color: var(--dark-charcoal);
     justify-content: space-around;
     align-items: center;
     height: 55px;
