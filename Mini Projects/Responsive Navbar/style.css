@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
 :root{
-    --dark-charcoal: #272829;
-    --purple-fog: #61677A;
+    --primary-color: #272829;
+    --secondary-color: #61677A;
+    --text-color: white;
 }
 
 *{
@@ -18,11 +19,11 @@ body{
 
 header{
     display: flex;
-    background-color: var(--dark-charcoal);
+    background-color: var(--primary-color);
     justify-content: space-around;
     align-items: center;
     height: 55px;
-    color: white;
+    color: var(--text-color);
 }
 
 h1{
@@ -39,7 +40,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     padding: 18px;
     display: block;
     text-align: center;
@@ -51,8 +52,8 @@ nav .fas{
 }
 
 nav a:hover{
-    background-color: #61677A;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 #check, #btn, #cancel{
@@ -61,7 +62,7 @@ nav a:hover{
 }
 
 #btn, #cancel{
-    background-color: #61677A;
+    background-color: var(--secondary-color);
     padding: 6px;
     border-radius: 2px;
     font-size: 1.5rem;
