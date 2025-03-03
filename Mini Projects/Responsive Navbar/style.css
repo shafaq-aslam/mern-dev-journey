@@ -16,9 +16,9 @@ body{
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
-    /* background: url(background.gif) no-repeat;
+    background: url(background.gif) no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 
 header{
@@ -112,6 +112,7 @@ nav a:hover{
         background-color: var(--primary-color);
         border-top: 1px solid var(--secondary-color);
         transition: all .5s;
+        z-index: 1111;
     }
 
     nav .fas{
@@ -132,7 +133,6 @@ nav a:hover{
 
     nav a:hover{
         transform: scale(1.2);
-        background: none;
     }
 
     #check:checked ~ ul{
@@ -144,7 +144,7 @@ section{
     background: url(laptop.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
-    /* otransition: all .5s;  */
+    height: 100%;
+    opacity: 0.4;
 }
 
