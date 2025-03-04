@@ -48,6 +48,7 @@ nav a{
     padding: 18px;
     display: block;
     text-align: center;
+    transition: .5s;
 }
 
 nav .fas{
@@ -145,6 +146,6 @@ section{
     background-position: center;
     background-size: cover;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
