@@ -6,12 +6,42 @@
     <title>CSS Filters</title>
 
     <style>
+
         img{
+            height: 300px;
+            width: 350px;
+            margin: 5px;
+        }
+
+        .img1{
+            filter: brightness(200%)
+        }
+
+        .img2{
+            filter: contrast(55%);
+        }
+
+        .img3{
             filter: blur(5px);
+        }
+
+        /* .img4{
+            filter: grayscale(80%);
+        } */
+        
+        .img4{
+            filter: sepia(100%);
         }
     </style>
 </head>
 <body>
+    <h2>Original Images</h2>
+    <img src="golgappy.jpg" alt="golgappy">
+    <img src="cat.jpeg" alt="cat">
+    <img src="flower.jpg" alt="flower">
+    <img src="nature.jpg" alt="nature">
+    
+    <h2>CSS Filter Images</h2>
     <img class="img1" src="golgappy.jpg" alt="golgappy">
     <img class="img2" src="cat.jpeg" alt="cat">
     <img class="img3" src="flower.jpg" alt="flower">
