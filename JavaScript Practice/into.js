@@ -1,0 +1,1 @@
+console.log("Ye duniya gol nhi hai bachuu")
