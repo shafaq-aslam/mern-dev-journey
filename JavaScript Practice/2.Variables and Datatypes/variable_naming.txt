@@ -1,0 +1,114 @@
+
+Variable Naming Convention
+************************************
+
+1) Camel Case (Recommended):
+* JavaScript follows the camelCase convention for naming variables.
+* The first word starts with a lowercase letter, and subsequent words start with uppercase letters.
+
+Example:
+
+let firstName = "John";
+let userAge = 25;
+
+**************************************
+
+2) Use Meaningful and Descriptive Names:
+* Variables should clearly describe their purpose.
+
+Example:
+
+let totalPrice = 100;
+let isUserLoggedIn = true;
+
+**************************************
+
+3) Avoid Reserved Keywords:
+* Do not use JavaScript reserved keywords as variable names.
+
+Example:
+
+let function = 10; // ❌ Syntax Error
+
+**************************************
+
+4) Use Constants in UPPER_CASE (if immutable):
+* Constants (declared using const) should be written in UPPER_CASE with underscores.
+
+Example:
+
+const MAX_USERS = 1000;
+const API_URL = "https://api.example.com";
+
+**************************************
+
+5) Use $ or _ Sparingly:
+* $ is often used in libraries like jQuery or for specific naming patterns.
+* _ is sometimes used for private variables or unused variables.
+
+Example:
+
+let $element = document.getElementById("myElement"); // Common in jQuery
+let _privateVar = "This is private"; // Convention (not truly private)
+
+**************************************
+
+6) Boolean Naming Conventions:
+* Boolean variables should be prefixed with is, has, can, or should.
+
+Example:
+let isAvailable = true;
+let hasPermission = false;
+let canDelete = true;
+
+**************************************
+
+7) Plural for Arrays and Collections:
+* Use plural names for arrays and collections.
+
+Example:
+let users = ["Alice", "Bob", "Charlie"];
+let productList = ["Laptop", "Phone", "Tablet"];
+
+**************************************
+
+8) Functions and Methods Use Verbs:
+* Function names should be verbs that describe the action they perform.
+
+Example:
+function calculateTotal(price, tax) {
+  return price + tax;
+}
+
+function fetchData() {
+  console.log("Fetching data...");
+}
+
+**************************************
+
+9) Class Names Use PascalCase:
+* Class names should follow PascalCase (each word starts with a capital letter).
+
+Example:
+
+class UserAccount {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+**************************************
+
+10) Avoid Single-letter Variables (Unless in Loops):
+* Except for simple loop counters (i, j), avoid single-letter names.
+
+Example (Better):
+let currentIndex = 0; --> Instead of just `i` in broader scope
+
+**************************************
+
+Bad vs. Good Examples
+❌ Bad Naming	✅ Good Naming
+let x = 10;	let price = 10;
+let data = [];	let usersList = [];
+let flag = true;	let isActive = true;
