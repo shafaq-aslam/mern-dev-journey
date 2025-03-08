@@ -45,12 +45,12 @@ console.log(fname);
 // can't be updated nor redeclared
 // **********************
 
-const a = 35;
-console.log(a);
-// a = "shafaq"; --> will throw error
-// console.log(a)
-// const a = "shafaq"; --> will throw error
-// console.log(a);
+const AGE = 35;
+console.log(AGE);
+// AGE = 40; --> will throw error
+// console.log(AGE)
+// const AGE = 45; --> will throw error
+// console.log(AGE);
 
 
 
