@@ -11,3 +11,10 @@ var age = 25;
 var age = 28;
 
 console.log(age);
+
+// to avoid this issue 
+// we can use "let", it is blocked scope
+// it can't be redeclare but manipulate.
+
+var fname = "shafaq";
+console.log(fname);
