@@ -10,10 +10,10 @@
 //     console.log(age);
 // }
 
-// var age = 25;
-// var age = 28;
+var age = 25;
+var age = 28;
 
-// console.log(age);
+console.log(age);
 
 // **********************
 // to avoid this issue 
@@ -21,11 +21,24 @@
 // it can't be redeclare but manipulate.
 // **********************
 
-// let fname = "shafaq";
-// console.log(fname);
+let fname = "shafaq";
+console.log(fname);
 // let fname = "zainab"; --> will throw error
 // fname = "zainab" --> can be updated but can't redeclear
 // console.log(fname);
+
+// will throw error;
+
+// {
+//    let userName = "Shayan"; 
+// }
+// console.log(userName);
+
+{
+   let userName = "Shayan"; 
+   console.log(userName);
+}
+
 
 // **********************
 // Constant
