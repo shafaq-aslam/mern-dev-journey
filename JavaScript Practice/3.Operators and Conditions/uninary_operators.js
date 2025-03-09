@@ -19,6 +19,14 @@ console.log(num1++) // 26
 console.log(--num1); // 26
 console.log(num1); // 26
 
+console.log(++num2); // 6
+console.log(--num2); // 5
+console.log(num2--); // 5
+console.log(num2); // 4
+console.log(--num2); // 3
+console.log(num2++); // 3
+console.log(num2); // 4
+
 
 
 
