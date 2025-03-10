@@ -14,6 +14,9 @@ console.log(!!"JavaScript"); // true
 console.log(!"JavaScript"); // false
 console.log(0 || "Hello"); // Hello
 console.log();
+console.log(false && 'Shafaq'); // false
+console.log(false || 3); // 3
+console.log(true || 'Hello'); // true
 console.log((false || true) || !false); // true
 console.log(("" || 0) || (null || "JavaScript")); // JavaScript
 console.log(!!(false || "AI") || !!0); // true
