@@ -16,10 +16,21 @@
 //     num3++;
 // }
 
-let ch = 'A';
-let n = 1;
-while(n<=10){
-    console.log(ch);
-    n++;
-    ch = String.fromCharCode(ch.charCodeAt(0) + 1);
+// let ch = 'A';
+// let n = 1;
+// while(n<=10){
+//     console.log(ch);
+//     n++;
+//     ch = String.fromCharCode(ch.charCodeAt(0) + 1);
+// }
+
+let i = 1;
+while(i<=10){
+    if(i%2==0){
+        console.log(i, " is Even");
+    }
+    else{
+        console.log(i, " is Odd");
+    }
+    i++;
 }
