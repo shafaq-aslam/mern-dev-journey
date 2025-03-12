@@ -46,13 +46,15 @@
 
 .price-plan h3{
     font-size: 45px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
+    color: #EABE6C;
 }
 
 .price-plan h5{
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-weight: 500;
+    color: #EABE6C;
 }
 
 .price-plan ul li{
