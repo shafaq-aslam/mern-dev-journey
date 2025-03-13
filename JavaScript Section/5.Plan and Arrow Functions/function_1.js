@@ -1,34 +1,36 @@
-// //function definition
-// function sayGreetings(){
-//     console.log("Hello! Good Morning");
-// }
+//function definition
+function sayGreetings(){
+    console.log("Hello! Good Morning");
+}
 
-// // function call
-// sayGreetings();
+// function call
+sayGreetings();
 
-// function printEven(){
-//     sayGreetings();
-//     for(let i=1; i<=10; i++){
-//         if(i%2==0){
-//             console.log(i, "is Even number")
-//         }
-//     }
-// }
+//************************
 
-// printEven();
+function printEven(){
+    sayGreetings();
+    for(let i=1; i<=10; i++){
+        if(i%2==0){
+            console.log(i, "is Even number")
+        }
+    }
+}
 
-// // function with parameters
-// function printOdd(start, end){ // start and end are parameters
-//     for(let i=start; i<=end; i++){
-//         if(i%2!=0){
-//             console.log(i, "is Odd number");
-//         }
-//     }
-//     console.log();
-//     printEven();
-// }
+printEven();
 
-// printOdd(1, 10);
+// function with parameters
+function printOdd(start, end){ // start and end are parameters
+    for(let i=start; i<=end; i++){
+        if(i%2!=0){
+            console.log(i, "is Odd number");
+        }
+    }
+    console.log();
+    printEven();
+}
+
+printOdd(1, 10);
 
 // return function
 function printSum(num1, num2){
@@ -38,6 +40,8 @@ function printSum(num1, num2){
 
 console.log(printSum(5,8));
 
+//************************
+
 function printFullName(firstName, lastName){
     let fullNAme = firstName + " " + lastName;
     return fullNAme;
@@ -45,3 +49,13 @@ function printFullName(firstName, lastName){
 
 let full_name = printFullName("Shafaq", "Aslam");
 console.log(full_name);
+
+//************************
+function printGreetings(fName, lName){
+    return "Hello" + " " + fName + " " +lName;
+
+    // unreachable statements/code
+    console.log("Happy to see you.");
+}
+
+console.log(printGreetings("Zainab", "Zaheer"));
