@@ -1,30 +1,47 @@
-//function definition
-function sayGreetings(){
-    console.log("Hello! Good Morning");
+// //function definition
+// function sayGreetings(){
+//     console.log("Hello! Good Morning");
+// }
+
+// // function call
+// sayGreetings();
+
+// function printEven(){
+//     sayGreetings();
+//     for(let i=1; i<=10; i++){
+//         if(i%2==0){
+//             console.log(i, "is Even number")
+//         }
+//     }
+// }
+
+// printEven();
+
+// // function with parameters
+// function printOdd(start, end){ // start and end are parameters
+//     for(let i=start; i<=end; i++){
+//         if(i%2!=0){
+//             console.log(i, "is Odd number");
+//         }
+//     }
+//     console.log();
+//     printEven();
+// }
+
+// printOdd(1, 10);
+
+// return function
+function printSum(num1, num2){
+    let sum = num1 + num2;
+    return sum;
 }
 
-// function call
-sayGreetings();
+console.log(printSum(5,8));
 
-function printEven(){
-    sayGreetings();
-    for(let i=1; i<=10; i++){
-        if(i%2==0){
-            console.log(i, "is Even number")
-        }
-    }
+function printFullName(firstName, lastName){
+    let fullNAme = firstName + " " + lastName;
+    return fullNAme;
 }
 
-printEven();
-
-function printOdd(start, end){
-    for(let i=start; i<=end; i++){
-        if(i%2!=0){
-            console.log(i, "is Odd number");
-        }
-    }
-    console.log();
-    printEven();
-}
-
-printOdd(1, 10);
+let full_name = printFullName("Shafaq", "Aslam");
+console.log(full_name);
