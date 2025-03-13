@@ -13,3 +13,10 @@ let printTable = function(table, startPoint, endPoint){
 }
 
 printTable(5, 2, 15);
+
+//Arrow function
+let getSquare = (number) => {
+    return number**2;
+}
+
+console.log(getSquare(5));
