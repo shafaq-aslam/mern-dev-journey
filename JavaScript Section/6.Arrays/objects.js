@@ -1,10 +1,10 @@
-let obj = {
+let obj1 = {
     "Fisrt Name" : "Shafaq",
     "Last Name" : "Aslam",
     Subject : "Conputer",
 };
 
-console.log(obj)
+console.log(obj1)
 
 //Object with function
 
