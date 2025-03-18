@@ -5,12 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: rgb(50, 49, 49);
 }
 
 .container{
     height: 100wh;
     width: 100%;
     background-color: bisque;
+    padding: 5rem 0;
 }
 
 .price-plan-container{
@@ -20,18 +22,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 60px;
-    background-color: #8ee23b;
 }
 
 .price-plan{
-    background-color: aqua;
-    color: blue;
+    background-color: whitesmoke;
     text-align: center;
     border-radius: 20px;
 }
 
 .price-plan .title{
-    background-color: #e23b3b;
     padding: 5% 0;
     border-radius: 20px 20px 0px 0px;
 }
@@ -53,6 +52,39 @@
 }
 
 .plan-info h6{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.plan-info span{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.plan-info ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.plan-info ul li::before{
+    content: '\1F5F8';
+    color: #891652;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 2rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.bgcolor1{
+    background-color: #FFA725;
 }
