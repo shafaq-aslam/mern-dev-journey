@@ -9,18 +9,18 @@
 }
 
 .container{
-    height: 100wh;
+    height: 100%;
     width: 100%;
-    background-color: bisque;
-    padding: 5rem 0;
+    background-color: #F9F7C9;
+    padding: 7.4rem 0;
 }
 
 .price-plan-container{
     width: 90%;
-    max-width: 1020px;
+    max-width: 1000px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 60px;
 }
 
@@ -28,10 +28,17 @@
     background-color: whitesmoke;
     text-align: center;
     border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: all .2s ease-in;
+}
+
+.price-plan:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .price-plan .title{
-    padding: 5% 0;
+    padding: 11% 0;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -55,11 +62,13 @@
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 15px;
+    color: #27445D;
 }
 
 .plan-info span{
     font-size: 3rem;
     font-weight: 700;
+    color: #27445D;
 }
 
 .plan-info ul li{
@@ -69,22 +78,52 @@
 
 .plan-info ul li::before{
     content: '\1F5F8';
-    color: #891652;
+    color: #27445D;
     font-weight: bolder;
     margin-right: 15px;
 }
 
 button{
-    width: 100%;
+    width: 90%;
     padding: 10px 5px;
     margin-top: 2rem;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all .5s ease;
 }
 
 .bgcolor1{
-    background-color: #FFA725;
+    background-color: #FFCF50;
+}
+
+#bg1:hover{
+
+    background-color: #e5a80d;
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+
+.bgcolor2{
+    background-color: #EC7FA9;
+}
+
+#bg2:hover{
+    background-color: #f7498b;
+    transform: scale(1.1);
+    border-radius: 50px;
+}
+
+.bgcolor3{
+    background-color: #A4B465;
+}
+
+#bg3:hover{
+    background-color: #a2c419;
+    transform: scale(1.1);
+    border-radius: 50px;
 }
