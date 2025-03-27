@@ -38,6 +38,10 @@ body{
     margin-left: -50px;
     margin-top: 50px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .icon-section{
@@ -48,7 +52,11 @@ body{
     color: white;
 
 }
-.
+.product-view{
+    background-color: white;
+    height: 18%;
+    border-radius: 0 0 15px 15px;
+}
 h6{
     padding: 1rem 0 1rem 0;
     font-family: 'Courier New', Courier, monospace;
