@@ -53,7 +53,7 @@ body{
 
 }
 
-.product-section img{
+.product-section .apple-image{
     margin-left: -70px;
     width: 355px;
     height: 405px;
@@ -63,6 +63,22 @@ body{
     background-color: white;
     height: 20%;
     border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+.product-view .img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #c8e681;
+    border-radius: 2px;
+}
+
+.product-view #img-rotate{
+    transform: rotate(180deg);
 }
 
 h6{
