@@ -9,7 +9,7 @@ body{
 
 .parent-box{
     background-color: white;
-    width: 60%;
+    width: 50%;
     height: 500px;
     margin: 8% auto;
     display: flex;
@@ -38,6 +38,15 @@ body{
     margin-left: -50px;
     margin-top: 50px;
     border-radius: 15px;
+}
+
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.8rem 0 0.8rem;
+    font-size: 1.5rem;
+    color: white;
+
 }
 
 h6{
