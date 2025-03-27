@@ -52,6 +52,13 @@ body{
     color: white;
 
 }
+
+.product-section img{
+    margin-left: -70px;
+    width: 355px;
+    height: 455px;
+}
+
 .product-view{
     background-color: white;
     height: 18%;
