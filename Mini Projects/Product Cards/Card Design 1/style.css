@@ -10,8 +10,8 @@ body{
 .parent-box{
     background-color: white;
     width: 50%;
-    height: 500px;
-    margin: 8% auto;
+    height: 590px;
+    margin: 5% auto;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -32,7 +32,7 @@ body{
 
 .product-section{
     background-color: #ace72d;
-    width: 90%;
+    width: 95%;
     height: 80%;
     position: absolute;
     margin-left: -50px;
