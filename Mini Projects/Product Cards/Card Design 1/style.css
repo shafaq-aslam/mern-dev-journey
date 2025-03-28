@@ -31,7 +31,7 @@ body{
     border: 2px solid rgb(44, 167, 10);
     width: 50%;
     border-radius: 10px;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 .product-section{
@@ -87,13 +87,33 @@ body{
 
 .product-name h1{
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
-    color: rgb(53, 53, 53);
+    color: #464e5d;
     font-size: 2.2rem;
 }
-/* h6{
+
+.product-name p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: rgb(76, 76, 76);
+    font-size: 0.8rem;
+}
+
+span{
+    font-family: "Raleway", sans-serif;
     padding: 1rem 0 1rem 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
-} */
+    font-size: 1.4rem;
+}
+
+h6{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 2rem 0;
+    /* padding: 1rem 0 1rem 0; */
+    font-size: 4rem;
+    color: #ff3f40;
+}
+
+.clr-section{
+    
+}
