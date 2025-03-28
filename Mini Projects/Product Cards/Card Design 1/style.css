@@ -13,7 +13,7 @@ body{
 
 .parent-box{
     background-color: white;
-    width: 50%;
+    width: 43%;
     height: 590px;
     margin: 5% auto;
     display: flex;
@@ -23,12 +23,12 @@ body{
 
 .child-box1{
     position: relative;
-    border: 2px solid red;
-    width: 42%;
+    /* border: 2px solid red; */
+    width: 46%;
     border-radius: 10px;
 }
 .child-box2{
-    border: 2px solid rgb(44, 167, 10);
+    /* border: 2px solid rgb(44, 167, 10); */
     width: 50%;
     border-radius: 10px;
     padding: 5% 0;
@@ -36,7 +36,7 @@ body{
 
 .product-section{
     background-color: #ace72d;
-    width: 95%;
+    width: 98%;
     height: 83%;
     position: absolute;
     margin-left: -50px;
@@ -89,14 +89,15 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 900;
     color: #464e5d;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
 }
 
 .product-name p{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     color: #9c9cae;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 
 span{
@@ -108,7 +109,7 @@ span{
 h6{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    padding: 2rem 0;
+    padding: 1.1rem 0;
     /* padding: 1rem 0 1rem 0; */
     font-size: 4rem;
     color: #ff3f40;
@@ -125,13 +126,13 @@ h6{
 
 .color-box{
     display: flex;
-    padding: 1rem 0 2.5rem 0;
+    padding: 0.5rem 0 2.5rem 0;
     gap: 5px;
 }
 
 .color-box img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 2px;
 }
 
@@ -164,7 +165,7 @@ ul li::before{
 button{
     background-color: #ff3f40;
     text-transform: uppercase;
-    margin: 1.5rem 0;
+    margin: 3rem 0 0 0;
     font-size: 1rem;
     padding: 1.2rem 2.5rem;
     color: white;
