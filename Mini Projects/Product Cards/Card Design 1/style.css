@@ -136,6 +136,10 @@ h6{
     border-radius: 2px;
 }
 
+#img-filter{
+    filter:brightness(150%);
+}
+
 .child-box2 p:nth-last-of-type(1){
     font-family: "Raleway", sans-serif;
     font-weight: 500;
