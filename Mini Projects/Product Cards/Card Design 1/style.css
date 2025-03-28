@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: #ff3f3fd3;
 }
 
 .parent-box{
@@ -177,5 +177,5 @@ button{
     border-radius: 7px;
     font-weight: bolder;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.42) 0px 5px 15px;
 }
