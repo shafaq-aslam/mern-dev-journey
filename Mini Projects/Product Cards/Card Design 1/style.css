@@ -143,3 +143,34 @@ h6{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #505763;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+ul li::before{
+    content: '\2022';
+    margin-right: 3px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+button{
+    background-color: #ff3f40;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    padding: 1.2rem 2.5rem;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
