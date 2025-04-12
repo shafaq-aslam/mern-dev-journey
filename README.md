@@ -18,6 +18,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
 ---
@@ -36,6 +37,7 @@ This repository is **my personal logbook** 📓 as I dive deep into the world of
 - 🔹 [React Official Docs](https://reactjs.org/)
 - 🔹 [FreeCodeCamp Full Stack Projects](https://www.freecodecamp.org/)
 - 🔹 [MDN Web Docs](https://developer.mozilla.org/)
+- 🔹 [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
 ---
 
