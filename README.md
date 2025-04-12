@@ -32,7 +32,8 @@ This repository is **my personal logbook** 📓 as I dive deep into the world of
 ## 📚 Learning Resources
 
 - 🔹 [SuperSimpleDev HTML, CSS, JS Series (YouTube)](https://www.youtube.com/@SuperSimpleDev)
-- 🔹 [MongoDB University](https://university.mongodb.com/)
+- 🔹 [Complete Web Dev using MERN stack by Love Babbar (YouTube)](https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=ZAQLP6rcopqVHi6s)
+- 🔹 [W3School](https://www.w3schools.com/)
 - 🔹 [Node.js & Express Docs](https://expressjs.com/)
 - 🔹 [React Official Docs](https://reactjs.org/)
 - 🔹 [FreeCodeCamp Full Stack Projects](https://www.freecodecamp.org/)
