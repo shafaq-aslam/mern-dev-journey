@@ -44,3 +44,37 @@ This repository is **my personal logbook** 📓 as I dive deep into the world of
 
 ## 📂 Repo Structure
 
+
+> 💡 Each folder is a **chapter** in the dev journey. Stay tuned for commits as I level up 🧑‍💻
+
+---
+
+## 📅 Weekly Progress Tracker
+
+| Week | Focus Area             | Status  |
+|------|------------------------|---------|
+| 1    | HTML/CSS Basics        | ✅ Done |
+| 2    | JavaScript Foundations | 🔄 In Progress |
+| 6    | Tailwind CSS           | ⏳ Coming Soon |
+| 3    | React Components       | ⏳ Coming Soon |
+| 4    | Express & Node Basics  | ⏳ Coming Soon |
+| 5    | MongoDB Integration    | ⏳ Coming Soon |
+| 6    | Build MERN Project     | ⏳ Coming Soon |
+
+---
+
+## 🧩 Mini & Final Projects
+
+This journey includes **multiple mini projects** to strengthen core concepts, and **a final capstone project** that combines everything learned throughout the stack.
+
+Stay tuned! 💥
+
+---
+
+## 🔖 Tags for SEO
+
+`mern-stack` `mongodb` `express` `react` `node` `tailwind` `web-development` `javascript` `html` `css` `frontend` `backend` `fullstack` `web-apps` `learning-log` `developer-journey`
+
+---
+
+<p align="center"><i>“Learning to code is like learning to speak — build by talking to your code every day.”</i></p>
