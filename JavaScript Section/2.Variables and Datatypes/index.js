@@ -4,7 +4,7 @@
 // var can be redeclaired that may create issues
 // *************************
 
-// var age = 25;
+// var age = 25
 
 // if(true){
 //     console.log(age);
