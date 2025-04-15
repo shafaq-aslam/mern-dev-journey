@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of Media query with flex</title>
+
+    <style>
+        .container{
+            background-color: bisque;
+            border: 2px solid maroon;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+
+        .box{
+            border: 2px solid rebeccapurple;
+            height: 100px;
+            width: 100px;
+            margin: 2px;
+            padding: 3px;
+        }
+
+        .bx1{
+            background-color: red;
+        }
+
+        .bx2{
+            background-color: green;
+        }
+
+        .bx3{
+            background-color: blue;
+        }
+
+        .bx4{
+            background-color: aqua;
+        }
+
+        .bx5{
+            background-color: yellow;
+        }
+
+        /* min-width query is for larger screens (600px or more). */
+        @media (min-width:600px){
+            .container{
+                flex-direction: row;
+            }
+        }
+
+        /*  max-width query is for smaller screens (600px or less). */
+        @media (max-width:600px){ 
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box bx1">Box A</div>
+        <div class="box bx2">Box B</div>
+        <div class="box bx3">Box C</div>
+        <div class="box bx4">Box D</div>
+        <div class="box bx5">Box E</div>
+    </div>
+    
+</body>
+</html>

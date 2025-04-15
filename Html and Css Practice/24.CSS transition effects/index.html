@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Effect</title>
+
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(167, 115, 215);
+            border: 5px solid blueviolet;
+            /* transition-property: width height border-radius background-color border; */
+            transition-property: all;
+            transition-duration: 4s;
+            transition-delay: 0.25s;
+            transition-timing-function: ease;
+
+            /* Shorthand Notation */
+
+            /* property | duration */
+            /* transition: all 0.5s; */
+
+            /* property | duration | delay*/
+            /* transition: all 2s 0.25s; */
+
+            /* property | duration | delay */
+            /* transition: all 2s 0.25s ease-in; */
+
+            /* transition: width 2s, height 5s; */
+        }
+
+        .box:hover{
+            width: 1200px;
+            height: 100px;
+            border-radius: 30px;
+            background-color: rgb(128, 65, 65);
+            border: 5px solid rgb(131, 11, 11);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
