@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+
+        /* Element selector */
+        div{
+            background-color:cadetblue;
+        }
+
+        /* Class selector */
+        .red{
+            background-color: red;
+        }
+
+        /* Id selector */
+        #blue{
+            background-color: blue;
+            color: antiquewhite;
+        }
+
+        /* Child selector */
+        #blue > p{
+            color: azure;
+            background-color: green;
+        }
+
+        /* Descendent selector */
+        div p{
+            background-color: brown;
+            color: rgb(162, 248, 248);
+        }
+
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo selector */
+
+        a:link{
+            color: blue;
+        }
+
+        a:visited{
+            color: red;
+        }
+
+        a:hover{
+            background-color: green;
+            color: yellow;
+        }
+
+        a:active{
+            background-color: hotpink;
+
+        }
+
+        span:first-child{
+            background-color:rgb(131, 33, 250);
+            color: rgb(187, 228, 52);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <main class="child">
+        <span>I'm a first child</span>
+    </main>
+    
+    <div>
+        I'm a div
+        <span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto unde nam perspiciatis blanditiis, nostrum laudantium esse hic vel quo cumque, ducimus cupiditate placeat molestias illum dolor voluptatem exercitationem cum? Temporibus.</p>
+        </span>
+    </div>
+
+    <div class="red">
+        I'm a red div
+    </div>
+
+    <div id="blue">
+        I'm a blue div
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero omnis deleniti suscipit aliquid asperiores sit architecto tenetur, eos debitis repellendus deserunt cum rerum reprehenderit nisi. Sequi sint quas animi!</p>
+    </div>
+
+    <a href="https://www.google.com/">Go to Google</a> &nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/">Go to Facebook</a>
+
+</body>
+</html>

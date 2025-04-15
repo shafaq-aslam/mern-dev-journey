@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts, Text, & Color Properties</title>
+
+    <!-- Using google fonts by Link method -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+
+    <style>
+
+        /* Using google fonts by Import method */
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+        * {
+            background-color: aqua;
+        }
+
+        h1 {
+            background-color: blueviolet;
+            color: blanchedalmond;
+            letter-spacing: 3px;
+            font-style: italic;
+            font-size: 30px;
+        }
+
+        .font1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            font-size: 22px;
+        }
+
+        .font2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .font3 {
+            font-family: "Playwrite AU SA", serif;
+            font-size: 10px;
+            font-weight: 900;
+            line-height: 20px;
+        }
+
+        .font4{
+            font-family: "Playwrite VN", serif;
+            font-size: 15px;
+            line-height: 150%;
+        }
+
+        h2{
+            text-transform: uppercase;
+            text-decoration: dotted underline;
+            text-decoration-color: rgb(190, 14, 14);
+            text-decoration-style: dotted;
+            text-decoration-thickness: 10px;
+        }
+
+        #text{
+            text-indent: 150px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>CSS Fonts, Text, & Color Properties</h1>
+
+    <div class="font1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sapiente doloribus labore, in beatae nihil
+            impedit quibusdam quaerat porro corporis, qui sunt sed atque hic voluptatem alias, ea at dicta.</p>
+    </div>
+
+    <div class="font2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sapiente doloribus labore, in beatae nihil
+            impedit quibusdam quaerat porro corporis, qui sunt sed atque hic voluptatem alias, ea at dicta.</p>
+    </div>
+
+    <h1>Google Fonts</h1>
+
+    <div class="font3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sapiente doloribus labore, in beatae nihil
+            impedit quibusdam quaerat porro corporis, qui sunt sed atque hic voluptatem alias, ea at dicta.</p>
+    </div>
+
+    <div class="font4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sapiente doloribus labore, in beatae nihil
+            impedit quibusdam quaerat porro corporis, qui sunt sed atque hic voluptatem alias, ea at dicta.</p>
+    </div>
+
+    <h2>Text Decoration</h2>
+    <h2 id="text">Text Decoration</h2>
+
+</body>
+
+</html>
